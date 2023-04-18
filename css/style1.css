@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(27, 27, 27);
+    margin: 0%;
+}
+.navbar_h2{
+    color: lightgray;
+    float: left;
+    margin: 10px;
+    margin-right: 300px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: rgb(20, 18, 18);;
+    height: auto;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+button{
+        background-color: cornflowerblue;
+        height: 43px;
+}
+input{
+    display: grid;
+    justify-content: center;
+    width: 300px;
+    margin-top: 6px;
+    background-color: gray;
+    height: 35px;
+    margin-bottom: 10px;
+
+}
+::placeholder{
+    font-style: italic;
+    font-size: 1em;
+    color: lightgray;
+    padding: 5px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: lightgray;
+    margin-left: 10%;
+}
+li{
+    display: grid;
+    margin: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2px;
+}
+.active{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+.main{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.head{
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span{
+    color: grey;
+    font-size: 15px;
+}
+.h{
+    height: auto;
+    width: 100%;
+    display: inline-flex;
+    margin-top: 10px;
+}
+.h1{
+    background-color: rgb(19, 16, 16);
+    margin-right: 15px;
+    width: 70%;
+    border-radius: 15px;
+}
+.h2{
+    background-color: rgb(20, 18, 18);
+    width: 30%;
+    border-radius: 15px;
+}
+.font{
+    margin: 21px;
+    font-size: medium;
+    color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cornflowerblue;
+}
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightgray;
+    margin-bottom: 0%;
+}
+img{
+    height: 130px;
+    width: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+}
+.weather{
+    background-color: rgb(20, 18, 18);
+    float: right;
+    width: 200px;
+    height: fit-content;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+h1{
+    float: left;
+    margin: 10px;
+    color: lightgrey;
+    width: 200px;
+    font-size: 20px;
+}
+.icon{
+    height:28px ;
+    width: 25px;
+}
+.h2_img{
+    height: 70px;
+    width: 100px;
+    float: right;
+}
+u{
+    font-size: 12px;
+    color: grey;
+}

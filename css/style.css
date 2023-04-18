@@ -1,0 +1,48 @@
+body{
+    background-image: url('bg.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+    text-shadow: 4px 10px 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+form{
+    border: 1px ridge black;
+    height: auto;
+    width: 220px;
+    border-radius: 5px;
+    box-shadow: 4px 10px 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+input{
+    border: black 1px solid;
+    height: 25px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 20px;
+    opacity: 0.4;
+}
+button{
+    background-color: rgb(60, 36, 92);
+    box-shadow: 3px 10px 20px;
+    border-radius: 2px;
+    height: 25px;
+}
+img{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+}
+a{
+    color: black;
+    text-decoration: solid;
+}
+::placeholder{
+    color: black;
+    font-style: italic;
+    font-size: 1em;
+    padding: 5px;
+}
