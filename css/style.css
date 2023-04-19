@@ -9,7 +9,7 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
 }
-form{
+fieldset{
     border: 1px ridge black;
     height: auto;
     width: 220px;
@@ -26,15 +26,24 @@ input{
     opacity: 0.4;
 }
 button{
-    background-color: rgb(60, 36, 92);
+    background-color: rgb(102, 73, 141);
     box-shadow: 3px 10px 20px;
-    border-radius: 2px;
+    border-radius: 8px;
     height: 25px;
+    border: black solid 2px;
 }
 img{
     height: 50px;
     width: 50px;
     background-color: transparent;
+}
+select{
+    border: black 1px solid;
+    width: 175px;
+    height: 27px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 20px;
+    opacity: 0.4;
 }
 a{
     color: black;
@@ -42,7 +51,7 @@ a{
 }
 ::placeholder{
     color: black;
-    font-style: italic;
     font-size: 1em;
     padding: 5px;
+    margin-left: 10px;
 }
